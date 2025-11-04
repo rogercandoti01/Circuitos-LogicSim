@@ -50,7 +50,7 @@
   ],
   "OutputPins":[
     {
-      "Name":"OUT",
+      "Name":"SUM",
       "ID":950522550,
       "Position":{
         "x":5.93275,
@@ -61,7 +61,7 @@
       "ValueDisplayMode":0
     },
     {
-      "Name":"OUT",
+      "Name":"Carry",
       "ID":865168309,
       "Position":{
         "x":5.96493,
