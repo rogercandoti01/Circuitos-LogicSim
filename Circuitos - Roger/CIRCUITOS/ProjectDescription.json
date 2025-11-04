@@ -1,0 +1,130 @@
+{
+  "ProjectName": "CIRCUITOS JOÃO VITOR",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2025-04-22T19:45:00.701-03:00",
+  "LastSaveTime": "2025-06-16T19:35:01.649-03:00",
+  "Prefs_MainPinNamesDisplayMode": 2,
+  "Prefs_ChipPinNamesDisplayMode": 1,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 0,
+  "Prefs_StraightWires": 0,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "NOT",
+    "OR",
+    "AND",
+    "NOR",
+    "XOR",
+    "XNOR",
+    "HALF ADDER",
+    "FULL ADDER",
+    "2 ADDER",
+    "4 ADDER",
+    "8 ADDER",
+    "HALF SUBSTRACTOR",
+    "FULL SUBSTRACTOR",
+    "2 SUBTRACTOR",
+    "4 SUBTRACTOR",
+    "8 SUBTRACTOR",
+    "CIRCUITO ARITIMETICO",
+    "FOUR AND",
+    "8-MUX",
+    "ADDR-0",
+    "ADDR-1",
+    "ADDR-3",
+    "ADDR-7",
+    "ADDR-2",
+    "ADDR-4",
+    "ADDR-5",
+    "ADDR-6"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"MERGE/SPLIT",
+      "IsCollection":true
+    },
+    {
+      "Name":"LOGIC GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"OPERACOES",
+      "IsCollection":true
+    },
+    {
+      "Name":"ADDRESS",
+      "IsCollection":true
+    },
+    {
+      "Name":"CIRCUITO ARITIMETICO",
+      "IsCollection":false
+    },
+    {
+      "Name":"FOUR AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"8-MUX",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["CLOCK","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":false,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":false,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":false,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY"],
+      "IsToggledOpen":false,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["AND","NOT","NAND","OR","NOR","XOR","XNOR","FOUR AND"],
+      "IsToggledOpen":false,
+      "Name":"LOGIC GATES"
+    },
+    {
+      "Chips":["HALF ADDER","FULL ADDER","2 ADDER","4 ADDER","8 ADDER","HALF SUBSTRACTOR","FULL SUBSTRACTOR","2 SUBTRACTOR","4 SUBTRACTOR","8 SUBTRACTOR"],
+      "IsToggledOpen":false,
+      "Name":"OPERACOES"
+    },
+    {
+      "Chips":["8-MUX","PULSE","LED","BUZZER","CIRCUITO ARITIMETICO"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["ADDR-0","ADDR-1","ADDR-2","ADDR-3","ADDR-4","ADDR-5","ADDR-6","ADDR-7"],
+      "IsToggledOpen":true,
+      "Name":"ADDRESS"
+    }
+  ]
+}

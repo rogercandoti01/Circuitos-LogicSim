@@ -1,0 +1,171 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "4 - ADDER",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.025,
+    "y": 2.25
+  },
+  "Colour": {
+    "r": 0.372234821,
+    "g": 0.740759552,
+    "b": 0.454560369,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"A0",
+      "ID":1148560105,
+      "Position":{
+        "x":-5.0,
+        "y":1.5625
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"B0",
+      "ID":777112594,
+      "Position":{
+        "x":-5.0,
+        "y":1.0
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"A1",
+      "ID":2137605047,
+      "Position":{
+        "x":-5.0,
+        "y":0.375
+      },
+      "BitCount":1,
+      "Colour":1,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"B1",
+      "ID":1984073347,
+      "Position":{
+        "x":-5.0,
+        "y":-0.25
+      },
+      "BitCount":1,
+      "Colour":1,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"A2",
+      "ID":1800553646,
+      "Position":{
+        "x":-5.0,
+        "y":-0.875
+      },
+      "BitCount":1,
+      "Colour":2,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"B2",
+      "ID":1523862065,
+      "Position":{
+        "x":-5.0,
+        "y":-1.5
+      },
+      "BitCount":1,
+      "Colour":2,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"A3",
+      "ID":1014889435,
+      "Position":{
+        "x":-5.0,
+        "y":-2.125
+      },
+      "BitCount":1,
+      "Colour":3,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"B3",
+      "ID":1323746680,
+      "Position":{
+        "x":-5.0,
+        "y":-2.75
+      },
+      "BitCount":1,
+      "Colour":3,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"CIN",
+      "ID":1340569776,
+      "Position":{
+        "x":-5.0,
+        "y":-3.375
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"SUM OUT",
+      "ID":2101761278,
+      "Position":{
+        "x":5.25,
+        "y":1.1875
+      },
+      "BitCount":4,
+      "Colour":0,
+      "ValueDisplayMode":1
+    },
+    {
+      "Name":"CARRY OUT",
+      "ID":1641870764,
+      "Position":{
+        "x":5.25,
+        "y":-1.5
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"1-4BIT",
+      "ID":516204932,
+      "Label":"",
+      "Position":{
+        "x":2.8225,
+        "y":1.1875
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":4}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":4,
+        "PinOwnerID":516204932
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":2101761278
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays": null
+}
