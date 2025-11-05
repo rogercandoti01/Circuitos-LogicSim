@@ -1,9 +1,9 @@
 {
-  "ProjectName": "Roger-Circuits",
+  "ProjectName": "Circuitos-LogicSim",
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-30T18:58:21.082-03:00",
-  "LastSaveTime": "2025-10-30T19:18:16.402-03:00",
+  "LastSaveTime": "2025-11-05T19:25:05.231-03:00",
   "Prefs_MainPinNamesDisplayMode": 1,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -20,7 +20,8 @@
     "XOR",
     "XNOR",
     "Half-Adder",
-    "Full-Adder"
+    "Full-Adder",
+    "Half-Substractor"
   ],
   "StarredList":[
     {
@@ -36,12 +37,12 @@
       "IsCollection":true
     },
     {
-      "Name":"Half-Adder",
-      "IsCollection":false
+      "Name":"Adder's",
+      "IsCollection":true
     },
     {
-      "Name":"Full-Adder",
-      "IsCollection":false
+      "Name":"Substractor's",
+      "IsCollection":true
     }
   ],
   "ChipCollections":[
@@ -84,6 +85,16 @@
       "Chips":["NAND","XNOR","XOR","NOR","OR","AND","NOT"],
       "IsToggledOpen":false,
       "Name":"Portas-Logicas"
+    },
+    {
+      "Chips":["Full-Adder","Half-Adder"],
+      "IsToggledOpen":false,
+      "Name":"Adder's"
+    },
+    {
+      "Chips":["Half-Substractor"],
+      "IsToggledOpen":false,
+      "Name":"Substractor's"
     }
   ]
 }
