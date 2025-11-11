@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-30T18:58:21.082-03:00",
-  "LastSaveTime": "2025-11-05T19:25:05.231-03:00",
+  "LastSaveTime": "2025-11-11T20:12:09.799-03:00",
   "Prefs_MainPinNamesDisplayMode": 1,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -21,7 +21,11 @@
     "XNOR",
     "Half-Adder",
     "Full-Adder",
-    "Half-Substractor"
+    "Half-Substractor",
+    "3 XOR",
+    "3 AND",
+    "fake-Full-Substractor",
+    "Full-Subtractor"
   ],
   "StarredList":[
     {
@@ -78,11 +82,11 @@
     },
     {
       "Chips":["BUZZER"],
-      "IsToggledOpen":false,
+      "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
-      "Chips":["NAND","XNOR","XOR","NOR","OR","AND","NOT"],
+      "Chips":["3 AND","3 XOR","NAND","XNOR","XOR","NOR","OR","AND","NOT"],
       "IsToggledOpen":false,
       "Name":"Portas-Logicas"
     },
@@ -92,7 +96,7 @@
       "Name":"Adder's"
     },
     {
-      "Chips":["Half-Substractor"],
+      "Chips":["Full-Subtractor","fake-Full-Substractor","Half-Substractor"],
       "IsToggledOpen":false,
       "Name":"Substractor's"
     }
