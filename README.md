@@ -1,5 +1,10 @@
 # Circuitos-LogicSim
 Yes
+## 4-Bit-Adder
+### Resumo
+O circuito lógico é responsável por realizar a soma binária de dois números de 4 bits. Possui 1 half-adder, e 3 full-adder, onde o half faz os primeiros calculos e em sequencia os full-adder continuam utilizando os carrys dos calculos passados.
+## Entradas
+- A e B: Uma entrada 4-bit que dara um valor positivo para soma.
 ## Half-Substractor
 ### Entradas
 - A: Minuendo

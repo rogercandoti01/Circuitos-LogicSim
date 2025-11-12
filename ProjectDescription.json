@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-30T18:58:21.082-03:00",
-  "LastSaveTime": "2025-11-11T20:12:09.799-03:00",
+  "LastSaveTime": "2025-11-12T13:35:27.498-03:00",
   "Prefs_MainPinNamesDisplayMode": 1,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -25,7 +25,8 @@
     "3 XOR",
     "3 AND",
     "fake-Full-Substractor",
-    "Full-Subtractor"
+    "Full-Subtractor",
+    "4-Bit-Adder"
   ],
   "StarredList":[
     {
@@ -47,6 +48,10 @@
     {
       "Name":"Substractor's",
       "IsCollection":true
+    },
+    {
+      "Name":"4-Bit-Adder",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
