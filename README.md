@@ -4,7 +4,23 @@ Yes
 ### Resumo
 O circuito lógico é responsável por realizar a soma binária de dois números de 4 bits. Possui 1 half-adder, e 3 full-adder, onde o half faz os primeiros calculos e em sequencia os full-adder continuam utilizando os carrys dos calculos passados.
 ### Entradas
-- A e B: Uma entrada 4-bit que dara um valor positivo para soma.
+- A e B: Uma entrada 4-bit que dara o valor positivo para soma.
+
+## 4-Bit-Adder-Scale
+### Resumo
+O circuito logico realiza a soma da mesma forma que o 4-bit-adder, porem com uma porta a mais e uma saida a mais. Isso facilita o posicionamento em sequencia, fazendo assim um 8-bit-adder com mais facilidade.
+### Entradas
+- A e B: Uma entrada 4-bit que dara o valor positivo para soma.
+- Carry in: Uma porta de 1-bit, que se refere a sobra que esta vindo de um calculo anterior.
+### Saidas
+- Sum: Valor que resulta a soma de A e B
+- Carry Out: Valor que vem extrapolar e sobrar da soma realizada em A e B, sendo apenas simbolica ou necessaria para ser ligada ao carry in de outro 4-bit-adder.
+
+## 8-bit-Adder-Scale
+### Resumo
+O circuito logico responsavel por realizar somas do tipo 8-bit, funciona da mesma forma que os outros Adder's.
+###
+###
 ## Half-Substractor
 ### Entradas
 - A: Minuendo

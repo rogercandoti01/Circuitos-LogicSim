@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-30T18:58:21.082-03:00",
-  "LastSaveTime": "2025-11-12T13:35:27.498-03:00",
+  "LastSaveTime": "2025-11-18T21:14:09.845-03:00",
   "Prefs_MainPinNamesDisplayMode": 1,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -26,7 +26,10 @@
     "3 AND",
     "fake-Full-Substractor",
     "Full-Subtractor",
-    "4-Bit-Adder"
+    "4-Bit-Adder",
+    "4 - 1 MUX",
+    "4 - bit adder scale",
+    "8 Bit - adder Scale"
   ],
   "StarredList":[
     {
@@ -50,8 +53,8 @@
       "IsCollection":true
     },
     {
-      "Name":"4-Bit-Adder",
-      "IsCollection":false
+      "Name":"MUX",
+      "IsCollection":true
     }
   ],
   "ChipCollections":[
@@ -96,14 +99,19 @@
       "Name":"Portas-Logicas"
     },
     {
-      "Chips":["Full-Adder","Half-Adder"],
-      "IsToggledOpen":false,
+      "Chips":["4 - bit adder scale","8 Bit - adder Scale","4-Bit-Adder","Full-Adder","Half-Adder"],
+      "IsToggledOpen":true,
       "Name":"Adder's"
     },
     {
       "Chips":["Full-Subtractor","fake-Full-Substractor","Half-Substractor"],
       "IsToggledOpen":false,
       "Name":"Substractor's"
+    },
+    {
+      "Chips":["4 - 1 MUX"],
+      "IsToggledOpen":true,
+      "Name":"MUX"
     }
   ]
 }
