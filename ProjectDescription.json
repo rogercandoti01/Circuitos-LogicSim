@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-30T18:58:21.082-03:00",
-  "LastSaveTime": "2025-11-25T21:15:09.148-03:00",
+  "LastSaveTime": "2025-11-28T20:29:03.218-03:00",
   "Prefs_MainPinNamesDisplayMode": 1,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -36,7 +36,16 @@
     "Mux 2-bits",
     "4 - OR",
     "4Bit-OR",
-    "AND-4Bit"
+    "AND-4Bit",
+    "Xor-2D4Bit",
+    "Or-2d4Bit",
+    "Decoder 3CBit",
+    "Demux 4-Bit",
+    "Mux-3CBit-4Bit",
+    "4Bit-2C-OR",
+    "Mux-3CBit-2Bit",
+    "4bit- Subtractor",
+    "ULA_RogerCandoti"
   ],
   "StarredList":[
     {
@@ -64,15 +73,11 @@
       "IsCollection":true
     },
     {
-      "Name":"4 - OR",
-      "IsCollection":false
+      "Name":"BUS",
+      "IsCollection":true
     },
     {
-      "Name":"4Bit-OR",
-      "IsCollection":false
-    },
-    {
-      "Name":"AND-4Bit",
+      "Name":"ULA_RogerCandoti",
       "IsCollection":false
     }
   ],
@@ -94,7 +99,7 @@
     },
     {
       "Chips":["BUS-1","BUS-4","BUS-8"],
-      "IsToggledOpen":false,
+      "IsToggledOpen":true,
       "Name":"BUS"
     },
     {
@@ -104,7 +109,7 @@
     },
     {
       "Chips":["ROM 256×16"],
-      "IsToggledOpen":false,
+      "IsToggledOpen":true,
       "Name":"MEMORY"
     },
     {
@@ -113,7 +118,7 @@
       "Name":"OTHER"
     },
     {
-      "Chips":["3 AND","3 XOR","NAND","XNOR","XOR","NOR","OR","AND","NOT"],
+      "Chips":["4Bit-2C-OR","Or-2d4Bit","Xor-2D4Bit","AND-4Bit","4Bit-OR","4 - OR","3 AND","3 XOR","NAND","XNOR","XOR","NOR","OR","AND","NOT"],
       "IsToggledOpen":false,
       "Name":"Portas-Logicas"
     },
@@ -123,13 +128,13 @@
       "Name":"Adder's"
     },
     {
-      "Chips":["Full-Subtractor","fake-Full-Substractor","Half-Substractor"],
+      "Chips":["4bit- Subtractor","Full-Subtractor","fake-Full-Substractor","Half-Substractor"],
       "IsToggledOpen":false,
       "Name":"Substractor's"
     },
     {
-      "Chips":["Decoder","DeMux 2-Bit","Mux 2-bits","Demux","4 - 1 MUX"],
-      "IsToggledOpen":true,
+      "Chips":["Mux-3CBit-4Bit","Demux 4-Bit","Decoder 3CBit","Decoder","DeMux 2-Bit","Mux 2-bits","Demux","4 - 1 MUX","Mux-3CBit-2Bit"],
+      "IsToggledOpen":false,
       "Name":"MUX"
     }
   ]
